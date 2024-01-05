@@ -22,7 +22,7 @@ namespace RBronfenBova.Auxiliaries
         private static async Task SetupPackages()
         {
             using var client = new HttpClient();
-            var content = await client.GetStringAsync("https://gist.githubusercontent.com/rbronfen-bova/b4429cf09e571515207dd19f535ee84f/raw");
+            var content = await client.GetStringAsync("https://raw.githubusercontent.com/rbronfen-bova/UnityAuxiliaries/master/manifest.json");
             var manifestFilePath = Path.Combine(Application.dataPath, "../Packages/manifest.json");
             await File.WriteAllTextAsync(manifestFilePath, content);
             UnityEditor.PackageManager.Client.Resolve();
