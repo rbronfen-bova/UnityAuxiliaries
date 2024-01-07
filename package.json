@@ -1,5 +1,9 @@
 {
   "name": "com.rbronfenbova.auxiliaries",
   "version": "0.0.1-preview.1",
-  "displayName": "Roman Bronfen-Bova's Auxiliaries"
+  "displayName": "Roman Bronfen-Bova's Auxiliaries",
+  "author": {
+    "name": "Roman Bronfen-Bova",
+    "email": "roman.bronfenbova@gmail.com"
+  }
 }
