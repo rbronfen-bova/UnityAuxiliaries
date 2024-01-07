@@ -1,7 +1,8 @@
 {
   "dependencies": {
-    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.rbronfenbova.auxiliaries": "https://github.com/rbronfen-bova/UnityAuxiliaries.git",
+    "com.rbronfenbova.fsm": "https://github.com/rbronfen-bova/UnityFiniteStateMachine.git",
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.svermeulen.extenject": "https://github.com/Mathijs-Bakker/Extenject.git?path=UnityProject/Assets/Plugins/Zenject/Source#9.3.1",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.development": "1.0.2",
