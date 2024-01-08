@@ -33,7 +33,7 @@ namespace RBronfenBova.Auxiliaries
             InstallPackage("com.unity.textmeshpro");
 
         [MenuItem("Tools/Packages/Install/New Input System")]
-        private static void InstallTextMeshPro() =>
+        private static void InstallNewInputSystem() =>
             InstallPackage("com.unity.inputsystem");
 
         private static void InstallPackage(string package)
