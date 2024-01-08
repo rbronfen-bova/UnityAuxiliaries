@@ -29,9 +29,16 @@ namespace RBronfenBova.Auxiliaries
         }
 
         [MenuItem("Tools/Packages/Install/TextMeshPro")]
-        private static void InstallTextMeshPro()
+        private static void InstallTextMeshPro() =>
+            InstallPackage("com.unity.textmeshpro");
+
+        [MenuItem("Tools/Packages/Install/New Input System")]
+        private static void InstallTextMeshPro() =>
+            InstallPackage("com.unity.inputsystem");
+
+        private static void InstallPackage(string package)
         {
-            UnityEditor.PackageManager.Client.Add("com.unity.textmeshpro");
+            UnityEditor.PackageManager.Client.Add(package);
             UnityEditor.PackageManager.Client.Resolve();
         }
     }
